@@ -5,9 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include("./head.php"); ?>
+        <?php include("./libs.php"); ?>
         <link rel="stylesheet" href="./assets/css/index.css">
-        <title>Digital Garage | Bem-vindo(a)</title>
+        <title>Boas Vindas a Digital | Garage</title>
     </head>
 
     <body oncontextmenu="return false" ondragstart="return false">
@@ -42,7 +42,7 @@
                                 data-aos-delay="200"
                                 data-aos-duration="700"
                                 data-aos-once="true"
-                                href="javascript:" 
+                                href="./area-tuning/index.php" 
                                 onclick="scrollPage('sess-2')"
                             >
                                 Conhecer!

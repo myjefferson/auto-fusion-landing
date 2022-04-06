@@ -9,14 +9,15 @@
                         <img src="./assets/img/logo-black.png" class="logo-footer" alt="Digital Garage">
                         <p class="title-mark"><b>Links Rápidos</b></p>
                         <p><a href="javascript:" onclick="scrollPage('sess-1')">INÍCIO</a></p>
-                        <p><a href="javascript:" onclick="scrollPage('sess-2')">NOSSOS SERVIÇOS</a></p>
-                        <p><a href="javascript:" onclick="scrollPage('sess-5')">CONTATOS</a></p>
+                        <!-- <p><a href="javascript:" onclick="scrollPage('sess-2')">NOSSOS SERVIÇOS</a></p>
+                        <p><a href="javascript:" onclick="scrollPage('sess-5')">CONTATOS</a></p> -->
                     </div>
                     <div class="whats col-lg-3 col-md-6">
                         <!--<img src="./assets/img/logo.png">-->
-                        <p class="title-mark"><b>WhatsApp</b></p>
-                        <p><a href="https://api.whatsapp.com/send?phone=5541999121863&text=Gostaria%20de%20solicitar%20um%20orçamento" target="_blank"><span class="iconify" data-icon="dashicons:whatsapp"></span> 41 99912-1863</a></p>
-                        <p><a href="tel:4135014569" target="_blank"><span class="iconify" data-icon="ant-design:phone-filled" data-flip="horizontal"></span> 41 3501-4569</a></p>
+                        <p class="title-mark"><b>Email</b></p>
+                        <a href="mailto: digitalgaragebrazil@gmail.com">digitalgaragebrazil@gmail.com</a>
+                        <!-- <p><a href="" target="_blank"><span class="iconify" data-icon="dashicons:whatsapp"></span> Telefone Whats</a></p>
+                        <p><a href="tel:" target="_blank"><span class="iconify" data-icon="ant-design:phone-filled" data-flip="horizontal"></span> Telefone</a></p> -->
                     </div>
                 </div>
             </div>
