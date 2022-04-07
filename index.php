@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?php include("./libs.php"); ?>
         <link rel="stylesheet" href="./assets/css/index.css">
+        <link rel="stylesheet" href="./assets/css/scrolling.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <title>Boas Vindas a Digital | Garage</title>
     </head>
 
@@ -61,8 +63,39 @@
                             >
                         </div>
                     </div>
-                </div> 
+                </div>
+            </div> 
+
+            <!--Scroll Horizontal-->
+            <div class="block">
+                <div class="animation">
+                    <div>
+                        <img src="./assets/img/brands/chevrolet.png">
+                    </div>
+                    <div>
+                        <img src="./assets/img/brands/fiat.png">
+                    </div>
+                    <div>
+                        <img src="./assets/img/brands/hyundai.png">
+                    </div>
+                    <div>
+                        <img src="./assets/img/brands/mini.png">
+                    </div>
+                    <div>
+                        <img src="./assets/img/brands/renault.png">
+                    </div>
+                    <div>
+                        <img src="./assets/img/brands/chevrolet.png">
+                    </div>
+                    <div>
+                        <img src="./assets/img/brands/ford.png">
+                    </div>
+                    <div>
+                        <img src="./assets/img/brands/audi.png">
+                    </div>
+                </div>
             </div>
+           
 
             <!--Quem Somos-->
             <div id="quem-somos">
@@ -85,5 +118,6 @@
             }
             AOS.init();
         </script>
+        <script src="./assets/js/scrolling.js"></script>
     </body>
 </html>

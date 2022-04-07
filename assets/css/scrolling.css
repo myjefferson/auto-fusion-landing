@@ -1,0 +1,38 @@
+.block {
+  overflow: hidden;
+  width: 100%;
+  margin: 40px auto;
+  background: #fff;
+}
+
+.animation {
+  width: auto;
+  height: 100px;
+  font-size: 0px;
+}
+.animation div {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: 0px 20px 0px 20px;
+}
+
+.animation div img{
+  border-radius: 20px;
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 50%;
+  transition: 0.6s;
+  background: #f1f1f1;
+  padding: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,.1);
+}
+
+.animation div img:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  filter: grayscale(0%);
+  opacity: 100%;
+}

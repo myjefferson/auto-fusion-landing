@@ -1,6 +1,5 @@
 body{
   overflow-x: hidden;
-  object-fit: contain;
   user-select: none;
 }
 
@@ -13,9 +12,6 @@ body{
 
 /*session 1*/
 #sess-1 .apresentacao-inicial{
-  position: relative;
-  object-fit: cover;
-  object-position: top;
   margin-top: 50px;
   width: 100%;
   height: 70vh;
