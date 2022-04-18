@@ -1,8 +1,10 @@
 .block {
   overflow: hidden;
   width: 100%;
+  padding: 10px;
   margin: 40px auto;
   background: #fff;
+  box-shadow: 0 -100px 60px rgba(255,255,255,1);
 }
 
 .animation {
@@ -22,12 +24,12 @@
   height: 120px;
   width: 120px;
   object-fit: contain;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
   opacity: 50%;
   transition: 0.6s;
   background: #f1f1f1;
   padding: 10px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,.1);
+  box-shadow: 2px 2px 6px rgba(0,0,0,.3);
 }
 
 .animation div img:hover{
@@ -35,4 +37,5 @@
   transition: 0.3s;
   filter: grayscale(0%);
   opacity: 100%;
+  border: 1px solid var(--df-primary-color);
 }

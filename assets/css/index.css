@@ -11,10 +11,16 @@ body{
 /*end-font-styles*/
 
 /*session 1*/
+#sess-1{
+  padding-top: 50px;
+  background: url("../img/landing_images/background.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 #sess-1 .apresentacao-inicial{
-  margin-top: 50px;
   width: 100%;
-  height: 70vh;
+  height: 75vh;
 }
 
 #sess-1 .apresentacao-inicial .row{
@@ -59,11 +65,156 @@ a:hover{
   box-shadow: 0px 0px 10px rgba(190, 0, 0, 1);
   background: #C60018;
 }
+
 /*image session 1 - presentation*/
 #sess-1 
 .apresentacao-inicial 
-.image-area-presentation 
+#car-area{
+  position: relative;
+  padding: 10px auto 10px auto;
+}
+
+#sess-1 
+.apresentacao-inicial 
+#car-area
 img{
   overflow: hidden;
   width: 100%;
+}
+
+.effect-image-car{
+  left: 0;
+  margin: -9px 0 0 0px;
+  padding: 7.9px;
+  position: absolute;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center;
+  
+  -webkit-mask-image: radial-gradient(black 0 10vmin, transparent 10vmin 30vmin);
+  -webkit-mask-size: 30vmin 30vmin;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: calc(var(--x) - 15vmin) calc(var(--y) - 15vmin);
+  
+  mask-image: radial-gradient(black 0 10vmin, transparent 10vmin 30vmin);
+  mask-size: 30vmin 30vmin;
+  mask-repeat: no-repeat;
+  mask-position: calc(var(--x) - 15vmin) calc(var(--y) - 15vmin);
+}
+
+/*Passos*/
+#passos{
+  margin-bottom: 100px;
+}
+
+#passos h2{
+  margin: 60px 0 40px 0;
+  max-width: 600px;
+  font-weight: bold;
+}
+
+#passos .card{
+  margin-top: 35px;
+  border: none;
+}
+
+#passos .card .card-body{
+  border-top: 3px solid red;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.15);
+  border-radius: 8px;
+}
+
+#passos .card .card-body:hover{
+  background: #F3123C;
+  color: #FFF;
+}
+
+#passos .card .card-body:hover p{
+  color: #FFF;
+}
+
+#passos .card .card-body:hover svg{
+  background: #FC425C;
+  color: #FFD8DD;
+}
+
+#passos .card .card-body:hover a{
+  color: #FFF;
+  font-weight: 600;
+}
+
+#passos .card-body svg{
+  float: left;
+  font-size: 3.1em;
+  margin:  0 18px 14px 0;
+  background: #FFE0E4;
+  border-radius: 6px;
+  padding: 7px;
+  color: #F3123C;
+}
+
+#passos .card-body h5{
+  font-weight: 600;
+}
+
+#passos .card-body p{
+  clear: both;
+  font-size: 1.1em;
+  color: #444;
+}
+
+/*nosso-objetivo*/
+#nosso-objetivo .container-xxl{
+  position: relative;
+  overflow: hidden;
+}
+
+#nosso-objetivo 
+.container-xxl
+> div {
+  height: 350px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#nosso-objetivo h2:after{
+  content: '';
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 17px 0 12px 0;
+  background: var(--df-primary-color);
+}
+
+#nosso-objetivo img{
+  height: 100%;
+  border-radius: 10px;
+  
+}
+
+@media screen and (max-width: 1200px){
+  #nosso-objetivo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #nosso-objetivo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  
+  #nosso-objetivo 
+  .container-xxl
+  > div {
+    height: max-content;
+    position: relative;
+    display: block;
+  }
 }

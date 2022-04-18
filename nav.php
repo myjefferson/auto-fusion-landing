@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="./assets/css/nav.css">
 
-<div class="nav-area">
+<div id="nav-area">
 
-    <nav class=" navbar container-xxl navbar-expand-lg justify-content-end">
+    <nav class="navbar container-xxl navbar-expand-lg justify-content-end">
         <div class="container-fluid">
             <a href="./index.php" class="d-block d-sm-block d-md-block d-lg-none logo-mobile">
                 <h1>
@@ -26,10 +26,10 @@
                             <a class="nav-link" href="javascript:" onclick="scrollPage('sess-1')">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" onclick="scrollPage('sess-2')">Quem somos?</a>
+                            <a class="nav-link" href="javascript:" onclick="scrollPage('passos')">Poucos passos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:" onclick="scrollPage('sess-5')">Benefícios</a>
+                            <a class="nav-link" href="javascript:" onclick="scrollPage('nosso-objetivo')">Nosso objetivo</a>
                         </li>
                     </ul>
                 </div>

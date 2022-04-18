@@ -1,7 +1,7 @@
 footer{
     position: relative;
-    margin-top: 0px;
-    padding-top: 75px !important;
+    margin-top: 60px;
+    padding-top: 50px !important;
     padding-bottom: 50px;
     background: #f1f1f1;
     font-size: 16px;
@@ -21,12 +21,6 @@ footer .footer-area .title-sess{
   color: #FF6600;
   font-weight: bold;
 }
-
-  footer iframe{
-    margin-top: 45px;
-    width: 100%;
-    border-radius: 7px;
-  }
   
   footer #fast-links p{
     margin: 0 0 10px 0;
@@ -40,7 +34,7 @@ footer .footer-area .title-sess{
   }
   
   footer a:hover{
-    color: #FF6600;
+    color: #000;
   }
 
 footer a:after{
@@ -48,7 +42,7 @@ footer a:after{
   content: "";
   display: block;
   position: absolute;
-  background: #FF6600;
+  background: var(--df-primary-color);
   width: 0%;
   bottom: -2px;
   left: 0;
@@ -69,14 +63,21 @@ footer a:hover:after{
     font-weight: bold;
   }
   
-  footer #about-us img{
-    width: 165px;
-    margin-bottom: 35px;
-  }
-  
-  footer #about-us .whats svg{
-    font-size: 26px;
+  footer .icons svg{
+    font-size: 35px;
     margin: 0 0 -5px 0;
+    background:  #444;
+    color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+  }
+
+  footer .icons svg:hover{
+    background:  #666;
+  }
+
+  footer .icons a:after{
+    display: none;
   }
   
   footer .footer-mapa{
@@ -122,43 +123,26 @@ footer a:hover:after{
     margin: 0 0 13px 0;
     color: var(--df-black);
   }
+
+  @media screen and (max-width: 1200px){   
+  }
   
   @media screen and (max-width: 991px){   
   }
   
   
   @media only screen and (max-width: 767px){ 
-    footer #social{ 
-      position: static;
-      display: flex;
-      justify-content: left;
-      left: 0;
-      padding: 0;
-      margin: 0;
+    footer .logo-footer{
+      width: 100%;
+      padding: 0px 40px 10px 40px;
+      margin-bottom: 30px;
     }
     
-    .content-form{
-      position: absolute;
-      left: 0;
-      width: 100vw;
-      top: -260px;
-    }
-  }
-  
-  @media only screen and (max-width: 529px){
-    .footer-area{
+    footer .icons{
       margin-top: 40px;
     }
-  }
-  
-  @media only screen and (max-width: 332px){
-    .footer-area{
-      margin-top: 120px;
+    .sub-footer{
+      text-align: center;
     }
   }
   
-  @media only screen and (max-width: 289px){
-    .footer-area{
-      margin-top: 130px;
-    }
-  }
