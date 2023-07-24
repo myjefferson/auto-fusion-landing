@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <a href="./index.php" class="d-block d-sm-block d-md-block d-lg-none logo-mobile">
                 <h1>
-                    <img src="./assets/img/dg-logo.png" class="logo" alt="Logomarca da Digital Garage">
+                    <img src="./assets/img/dg-logo.png" class="logo" alt="Logomarca da Auto Fusion">
                 </h1>
             </a>
             
@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <a href="./index.php" class="d-none d-sm-none d-md-none d-lg-block">
                     <h1>
-                        <img src="./assets/img/logo-principal-red.png" class="logo" alt="Logomarca da Digital Garage">
+                        <img src="./assets/img/logo-principal-red.png" class="logo" alt="Logomarca da Auto Fusion">
                     </h1>
                 </a>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">

@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="./assets/css/scrolling.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-        <title>Boas Vindas a Digital | Garage</title>
+        <title>Boas Vindas a Auto | Fusion</title>
     </head>
 
     <body oncontextmenu="return false" ondragstart="return false">
@@ -55,8 +55,8 @@
                         <div id="car-area" class="col-md-6">
                             <img 
                                 src="./assets/img/landing_images/car-1.png" 
-                                alt="Carro ilustrativo - Digital Garage"
-                                title="Carro ilustrativo - Digital Garage"
+                                alt="Carro ilustrativo - Auto Fusion"
+                                title="Carro ilustrativo - Auto Fusion"
                                 class="car-principal"
                                 data-aos="fade-left"
                                 data-aos-offset="0"
@@ -150,7 +150,7 @@
                             <div class="card-body">
                                 <span class="iconify" data-icon="eva:pin-outline" data-flip="horizontal"></span>
                                 <h5 class="card-title">3. Selecione a envelopadora mais próxima. E pronto!</h5>
-                                <p class="card-text">Nós encaminhamos sua solicitação! Viu como é fácil? Então, <a href="./car-tuning/index.php">vamos começar.</a></p>
+                                <p class="card-text">Nós encaminhamos sua solicitação! Viu como é fácil?</p>
                             </div>
                         </div>
                     </div>
